@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <nav class="nav">
@@ -18,13 +37,15 @@
       </ul>
     </nav>
 
-    <section class="hero">
+    <section class="section hero">
       <div class="profile"><img src="profile.png" alt="profile" /></div>
       <br />
       <div class="text-hero">
-        <h1>Hello I'm Joshua Melante</h1>
+        <h1 id="animated-heading">
+          Hello I'm <span id="typed-text">Joshua Melante</span>
+        </h1>
         <div>
-          <p>
+          <p id="animated-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
             velit explicabo perspiciatis repudiandae beatae hic. Libero natus
             magni quasi labore incidunt autem sit, molestiae tempora pariatur
@@ -36,6 +57,36 @@
         <button>HIRE ME</button>
         <button>DOWNLOAD CV</button>
       </div>
+      <div class="social-icons">
+        <a
+          href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-google"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/jozhua.melante.7"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
     </section>
+    <section class="section Portfolio">
+        <div class="work">
+          <div>
+
+          </div>
+        </div>
+    <section>
+
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
