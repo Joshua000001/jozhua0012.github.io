@@ -1,12 +1,12 @@
 gsap.from(".nav", {
     opacity: 0,
-    duration: 2,
+    duration: 3,
     ease: "power2.inOut"
 });
 
 gsap.from(".hero", {
     opacity: 0,
-    duration: 2,
+    duration: 3,
     ease: "power2.inOut"
 });
 
