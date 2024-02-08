@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    background-color:beige;
+    padding: 0px;
+
+}
+
+
+main {
+    background-color: azure;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*for 1*/
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+    
+
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+
+}
+
+#circle1 {
+    background-color: blue;
+}
+
+#circle2 {
+    background-color: red;
+}
+
+#circle3 {
+    background-color: rgb(4, 66, 4);
+}
+
+#circle4 {
+    background-color: yellow;
+}

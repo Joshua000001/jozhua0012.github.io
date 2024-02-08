@@ -8,25 +8,25 @@ main {
 }
 
 #section-rotate {
-    background-color: aquamarine;
+
     width: 100%;
     height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #section-rotate div { 
+    position: relative;
     height: 150px;
     width: 150px;
 
     border-radius: 50%;
 
-    border-top: 10px solid red;
-    border-right: 10px solid green;
-    border-bottom: 10px solid blue;
-    border-left: 10px solid yellow;
+    border-top: 50px solid red;
+    border-right: 50px solid green;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid yellow;
 
     animation-name: rotate;
     animation-duration: 2s;
@@ -34,6 +34,13 @@ main {
     animation-timing-function: linear;
 
 }
+#section-rotate .one{
+    position: static;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
 
 @keyframes rotate {
     from {
