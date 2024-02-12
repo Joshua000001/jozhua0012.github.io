@@ -1,105 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="logo">
-        <a href="#">Jos<span>hua</span></a>
-      </div>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
 
-    <section class="section hero">
-      <div class="profile"><img src="profile.png" alt="profile" /></div>
-      <br />
-      <div class="text-hero">
-        <h1 id="animated-heading">
-          Hello I'm <span id="typed-text">Joshua Melante</span>
-        </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+
+
+  <nav>
+    <div id="logo">Jos<span>hua</span></div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+    <a class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+  </nav>
+
+
+
+
+
+
+
+  <section class="up hero">
+    <img src="profile.png" alt="">
+    <div class="text-hero hero-text">
+      <h1 class="frontend">FRONT END DEVELOPER</h1>
+      <h1 class="deverloper">WEB DESIGNER</h1>
+    </div>
+  </section>
+
+
+
+
+  <section class="up aboutme" id="aboutme">
+    <div class="aboutme-container">
+      <h1>About Me</h1>
+      <p>Hello, I'm Joshua Melante from the Philippines. With over a year of experience in web design and development, I
+        possess a keen eye for detail, punctuality, and strong communication skills. Consider me your digital genie; I
+        specialize in turning your ideas into tangible realities on the web.</p>
+    </div>
+  </section>
+
+
+  <section class="portfolio" id="project">
+    <div class="work">
+      <div class="graph-paper">
         <div>
-          <p id="animated-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
-            velit explicabo perspiciatis repudiandae beatae hic. Libero natus
-            magni quasi labore incidunt autem sit, molestiae tempora pariatur
-            similique? Labore, officiis tempora?
-          </p>
+          <div class="demo-text">
+            <h3>SELECTEDPROJECTSELECTEDPROJECT</h3>
+          </div>
+          <div class="detailss">
+            <div class="left">
+              <div class="desktopContent">
+                <div class="desktopContentSection">
+                  <h1>Squad Free</h1>
+                  <p>
+                    This project I built in 2023 was my first time creating a website
+                    project, and it was an incredible learning experience that allowed
+                    me to explore my passion for web development and design.
+                  </p>
+                </div>
+                <div class="desktopContentSection">
+                  <h1>NiceAdmin</h1>
+                  <p>
+                    In 2023, my best-built website was crafted using comprehensive
+                    solutions and meticulous attention to detail, ensuring a seamless
+                    user experience and impeccable functionality.
+                  </p>
+                </div>
+                <div class="desktopContentSection">
+                  <h1>Medicio</h1>
+                  <p>
+                    Medicio is the perfect solution for all things medicine,
+                    meticulously crafted during my third venture into project
+                    creation. It embodies comprehensive knowledge and innovative
+                    features, catering to the intricate needs of the medical field
+                    with unparalleled precision and efficiency
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="right">
+              <div class="desktopPhotos">
+                <div class="desktopPhoto red"></div>
+                <div class="desktopPhoto green"></div>
+                <div class="desktopPhoto pink"></div>
+                <div class="desktopPhoto blue"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="button">
-        <button>HIRE ME</button>
-        <button>DOWNLOAD CV</button>
-      </div>
-      <div class="social-icons">
-        <a
-          href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-google"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/jozhua.melante.7"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a
-          href="https://www.youtube.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-youtube"></i
-        ></a>
-      </div>
-    </section>
-
-
-
-    <section class="section aboutme">
-      <div class="aboutme-container">
-          <h1>About Me</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...lore  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos delectus eveniet, laboriosam quia optio voluptatibus excepturi corrupti explicabo voluptates officiis numquam, cum quisquam, voluptas eaque pariatur at iure. Sed, minus?</p>
-      </div>
   </section>
 
 
-    <section class="section Portfolio">
-      <div class="work">
-          <div>
-              <div class="demo-text">
-                <div class="demo-text"><H3>SELECTEDPROJECTSELECTEDPROJECT</H3>
+
+
+
+  <section class="project-work" id="services">
+    <div>
+      <h3>Things I can help you with:</h3>
+    </div>
+    <div class="list-item"
+      data-hover-img="https://images.unsplash.com/photo-1680749399868-e7acde2814a4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODI0OTU4NDU&ixlib=rb-4.0.3&q=40">
+      <h2 class="display-3">WEB DESIGN</h2>
+      <div class="btn btn-outline-primary">more</div>
+    </div>
+    <div class="list-item"
+      data-hover-img="https://images.unsplash.com/photo-1681038429854-38596ec0d7f7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODI0OTU4ODM&ixlib=rb-4.0.3&q=40">
+      <h2 class="display-3">WEB DEVELOPER</h2>
+      <div class="btn btn-outline-primary">more</div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="add">
+    <main class='gallery'>
+      <div class='gallery-track'>
+        <div class='card'>
+          <div class='card-image-wrapper bento-1'>
+            <img src='https://source.unsplash.com/kL3u4Tqfn1s'>
           </div>
+        </div>
+        <div class='card'>
+          <div class='card-image-wrapper bento-2'>
+            <img src='https://source.unsplash.com/yVUQlyRlJSw'>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='card-image-wrapper bento-3'>
+            <img src='https://source.unsplash.com/7H77FWkK_x4'>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='card-image-wrapper bento-4'>
+            <img src='https://source.unsplash.com/kL3u4Tqfn1s'>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='card-image-wrapper  bento-5'>
+            <img src='https://source.unsplash.com/yVUQlyRlJSw'>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='card-image-wrapper bento-6'>
+            <img src='https://source.unsplash.com/7H77FWkK_x4'>
+          </div>
+        </div>
       </div>
+      </div>
+    </main>
   </section>
-  
-    </section>
-    <script src="script.js"></script>
-  </body>
-</html>
 
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <h2>HA<i>V</i>E AN IDEA?</h2>
+      <div>
+        <p>Drop me an Email</p>
+      </div>
+      <p>Email: melantejoshua@gmail.com</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
