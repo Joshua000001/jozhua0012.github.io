@@ -125,14 +125,14 @@ gsap.utils.toArray(".parallax").forEach((wrap) => {
 
 gsap.utils.toArray('.card').forEach(card => {
   gsap.from(card, {
-    x: 'random(-1000, 1000)', // Random initial position for each card
-    opacity: 0, // Start with opacity 0
-    duration: 1, // Animation duration
+    x: 'random(-1000, 1000)',
+    opacity: 0, 
+    duration: 1,
     scrollTrigger: {
       trigger: card,
-      start: 'top bottom', // Start animation when top of card reaches bottom of viewport
-      end: 'bottom bottom', // End animation when bottom of card reaches center of viewport
-      toggleActions: 'play none none none', // Play animation once and then disable it
+      start: 'top bottom', 
+      end: 'bottom bottom', 
+      toggleActions: 'play none none none',
     }
   });
 });
@@ -227,8 +227,8 @@ gsap.utils.toArray('.card').forEach(card => {
     y: 100,
     scrollTrigger: {
       trigger: '.gallery', 
-      start: 'bottom bottom', // Start animation when bottom of gallery reaches top of viewport
-      end: 'bottom bottom', // End animation when top of gallery reaches top of viewport
+      start: 'bottom bottom',
+      end: 'bottom bottom',
       scrub: 1.5,
     }
   });
