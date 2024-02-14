@@ -4,7 +4,7 @@ body, html {
 
     height: 100%;
 
-    background-color:yellow;
+    background-color: red;
 }
 
 main {
@@ -83,6 +83,6 @@ ul {
         transition: .3s linear;
     }
   body {
-    background-color: red;
+    background-color: yellow;
   }
 }
