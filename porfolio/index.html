@@ -15,7 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
     integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+  
 </head>
 
 <body>
@@ -108,8 +108,8 @@
       
             <div class="right">
               <div class="desktopPhotos">
-                <div class="desktopPhoto red"></div>
-                <div class="desktopPhoto green"></div>
+                <div class="desktopPhoto red change-background"></div>
+                <div class="desktopPhoto green change-background"></div>
                 <div class="desktopPhoto pink"></div>
                 <div class="desktopPhoto blue"></div>
               </div>
@@ -122,22 +122,30 @@
 
 
 
+  section class="project-work" id="services">
+  <div>
+    <h3>Things I can help you with:</h3>
+  </div>
+  <div class="list-item" data-hover-img="web-design.png">
+    <h2 class="display-3">WEB DESIGN</h2>
+    <div class="btn btn-outline-primary" onclick="togglePopup('web-design-popup')">+</div>
+  </div>
+  <div class="list-item" data-hover-img="web-develop.png">
+    <h2 class="display-3">WEB DEVELOPMENT</h2>
+    <div class="btn btn-outline-primary" onclick="togglePopup('web-development-popup')">+</div>
+  </div>
+</section>
 
-  <section class="project-work" id="services">
-    <div>
-      <h3>Things I can help you with:</h3>
-    </div>
-    <div class="list-item"
-      data-hover-img="web-design.png">
-      <h2 class="display-3">WEB DESIGN</h2>
-      <div class="btn btn-outline-primary">more</div>
-    </div>
-    <div class="list-item"
-      data-hover-img="web-develop.png">
-      <h2 class="display-3">WEB DEVELOPER</h2>
-      <div class="btn btn-outline-primary">more</div>
-    </div>
-  </section>
+<!-- Popups -->
+<div id="web-design-popup" class="popup">
+  <h2>Web Design</h2>
+  <p>If you're interested in web design, I'm happy to assist you! Contact me for more information.</p>
+</div>
+
+<div id="web-development-popup" class="popup">
+  <h2>Web Development</h2>
+  <p>If you're interested in web development, I'm happy to assist you! Contact me for more information.</p>
+</div>
 
 
 

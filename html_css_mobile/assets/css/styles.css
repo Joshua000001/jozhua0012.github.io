@@ -1,0 +1,88 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+
+    height: 100%;
+
+    background-color:yellow;
+}
+
+main {
+    width: 1024px;
+    height: 100%;
+    margin: 0px auto;
+
+    background-color: red;
+}
+
+.section-cover {
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+
+    background-color:blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-image, .div-info {
+    height: 300px;
+    width: 300px;
+
+}
+
+.div-image {
+    background-color: blue;
+    background-image: url("../images/html_logo.png");
+    background-size: cover;
+}
+
+.div-info {
+    background-color: green;
+    color: #FFFFFF;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-cover {
+        flex-direction: column !important;
+        height: 100% !important;
+        transition: .3s linear;
+    }
+    .section-cover{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section-cover {
+        flex-direction: column !important;
+        height: 100% !important;
+        transition: .3s linear;
+    }
+   main {
+    background-color: green;
+   }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-cover {
+        flex-direction: column !important;
+        height: 100% !important;
+        transition: .3s linear;
+    }
+  body {
+    background-color: red;
+  }
+}

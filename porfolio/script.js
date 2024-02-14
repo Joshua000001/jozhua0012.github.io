@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
+
 gsap.from(".nav", {
     opacity: 0,
     duration: 2,
@@ -322,3 +323,24 @@ details.forEach( (detail, index) => {
 		markers:false
 	})
 })
+
+
+
+
+
+
+
+function togglePopup(popupId) {
+  var popup = document.getElementById(popupId);
+  
+  // Toggle the visibility of the popup
+  if (popup.style.display === "none" || popup.style.display === "") {
+    popup.style.display = "block";
+  } else {
+    popup.style.display = "none";
+  }
+}
+
+
+
+
