@@ -435,7 +435,7 @@ nav {
   
   .card-image-wrapper {
     overflow: hidden;
-    border-radius: 10px; /* Rounded corners for the cards */
+    border-radius: 10px; 
   }
   
   .card img {
